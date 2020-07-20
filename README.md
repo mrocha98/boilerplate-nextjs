@@ -1,30 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="./.github/images/next-logo.png" width="400" alt="Logo do NextJS" />
+</p>
 
-## Getting Started
+<h1 align="center">
+  Boilerplate NextJS
+</h1>
 
-First, run the development server:
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+![GitHub](https://img.shields.io/github/license/mrocha98/boilerplate-nextjs?color=%23)
+![GitHub repo size](https://img.shields.io/github/repo-size/mrocha98/boilerplate-nextjs?color=%23)
+![GitHub language count](https://img.shields.io/github/languages/count/mrocha98/boilerplate-nextjs?color=%23)
+![GitHub top language](https://img.shields.io/github/languages/top/mrocha98/boilerplate-nextjs?color=%23)
+[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=25BB15&colorA=)](https://github.com/styled-components/styled-components)
+
+A Boilerplate for NextJS applications with ready setup to:
+
+- Typescript
+- Styled Components
+- Jest
+- React Testing Library
+- StoryBook
+- Commitizen
+
+This project was carried out following the course ["React Avançado"]((https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbuttercms.com%2Fstatic%2Fimages%2Ftech_banners%2FNextjs.b8a717322c08.png&f=1&nofb=1)) on Udemy.
+
+OBS: Contains some personal modifications like commitizen and BSD license. Check the original repo [here](https://github.com/React-Avancado/boilerplate).
+
+## 🚀 Usage
 
 ```bash
-npm run dev
-# or
-yarn dev
+yarn create next-app -e https://github.com/mrocha98/boilerplate-nextjs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![running command](.github/images/project-creation-1.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Creating my-cool-project
 
-## Learn More
+![command execution finished](.github/images/project-creation-2.png)
 
-To learn more about Next.js, take a look at the following resources:
+Creation finished
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![running project](.github/images/project-creation-3.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Running project
 
-## Deploy on Vercel
+![showing in browser](.github/images/project-creation-4.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Project opened in browser
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📜 License
+
+This project is licensed under [BSD-3-Clause](https://github.com/facebook/react/blob/master/LICENSE).
